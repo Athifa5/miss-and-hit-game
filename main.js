@@ -146,7 +146,7 @@ function isArrayEqual(z) {
   for(i=0 ; i<gameOver.length;i++){
     for(j=0;j<imgarr.length; j++){
 
-      if(imgarr[i] == gameOver[j] && flipImg[imgarr[j]] == flipImg[gameOver[i]]){
+      if(imgarr[i] == gameOver[j] ){
         checker[u++] = true;
         console.log(checker)
 
